@@ -70,7 +70,7 @@ def sck_init(host, port, tmout):
             sck.connect((host, port))
             break
         except:
-            print("waiting for connect bigiot.net...")
+            print("waiting for connect {0}...".format(BIGIOT_HOST))
             time.sleep(2)
     return sck
 
@@ -100,7 +100,7 @@ def process(sck, msg):
     if msg_content == "say":
         msg_id=msg["ID"]
         msg_cmd=msg["C"]
-        bigiot_say(sck, msg_id, "You have send to me:{{0}}".format(msg_cmd))
+        bigiot_say(sck, msg_id, "You have send to me:[{0}]".format(msg_cmd))
         if msg_cmd == "play":
             # led.on()
             led_on()
