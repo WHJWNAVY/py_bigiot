@@ -45,7 +45,10 @@ SY+D19493+stop # 关灯
 
 ![image-20201009185235648](README.assets/image-20201009185235648.png)
 
+![image-20201009192718618](README.assets/image-20201009192718618.png)
+
 ## 语音控制
+
 * [ESP8266+天猫精灵+贝壳物联 简单直接点亮一个LED灯](https://blog.csdn.net/u010053463/article/details/99652606)
 * [小爱同学控制esp8266点灯(Blinker)](https://www.jianshu.com/p/fbcd49573113)
 * [点灯科技-小爱同学接入](https://www.diandeng.tech/doc/xiaoai)
